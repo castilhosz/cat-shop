@@ -7,11 +7,13 @@ export default function Header() {
       <p>&quot;) bubs_shop</p>
 
       <nav>
-        <li><a href="/">FEED</a></li>
-        <li><a href="/estoque"></a>EM ESTOQUE</li>
+        <ul>
+          <li><a href="/">FEED</a></li>
+          <li><a href="/estoque"></a>EM ESTOQUE</li>
+        </ul>
       </nav>
 
-      <button><p>login</p></button>
+      <a>login</a>
     </div>
   )
 }
