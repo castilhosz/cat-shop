@@ -6,10 +6,10 @@ export default function Header() {
     <div className={styles.header}>
       <p>&quot;) bubs_shop</p>
 
-      <div>
-        <button>FEED</button>
-        <button>EM ESTOQUE</button>
-      </div>
+      <nav>
+        <li><a href="/">FEED</a></li>
+        <li><a href="/estoque"></a>EM ESTOQUE</li>
+      </nav>
 
       <button><p>login</p></button>
     </div>
