@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.header}>
-        <p>") bubs_shop</p>
+        <p>&quot;) bubs_shop</p>
 
         <div>
           <button>FEED</button>
