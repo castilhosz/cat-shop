@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 5vh;
+  width: 100%;
+
+  padding: 2rem;
+  background-color: #000;
+
+  position: fixed;
+}
+
+.header button {
+  border: 0;
+  color: #eff0f1;
+  background: #000;
+  padding: 0.7rem;
+}
