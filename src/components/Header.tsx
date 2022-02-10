@@ -1,19 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from '../styles/components/Header.module.css'
 
-export default function Header() {
-  return (
-    <div className={styles.header}>
-      <p>&quot;) bubs_shop</p>
+class Header extends Component {
+  state = {
+    opacity: '1'
+  }
 
-      <nav>
-        <ul>
-          <li><a href="/">FEED</a></li>
-          <li><a href="/estoque"></a>EM ESTOQUE</li>
-        </ul>
-      </nav>
+  componentDidMount() {
+    if (typeof window !== "undefined") {
+      window.onscroll = () => {
+        let currentScrollPos = window.pageYOffset;
+        let maxScroll = document.body.scrollHeight - window.innerHeight;
 
-      <a>login</a>
-    </div>
-  )
+        if (currentScrollPos > 0 && currentScrollPos < maxScroll) {
+          this.setState({ opacity: "0" })
+        } else {
+          this.setState({ opacity: "1" })
+        }
+      }
+    }
+  }
+
+  render() {
+    return (
+      <div className={styles.header} style={{ opacity: `${this.state.opacity}` }}>
+        <p>&quot;) bubs_shop</p>
+
+        <nav>
+          <ul>
+            <li><a href="/">FEED</a></li>
+            <li><a href="/estoque"></a>EM ESTOQUE</li>
+          </ul>
+        </nav>
+
+        <a>login</a>
+      </div>
+    )
+  }
 }
+
+export default Header

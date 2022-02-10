@@ -7,6 +7,8 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" href="favicon.png" type="image/png" />
 
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
         </Head>
