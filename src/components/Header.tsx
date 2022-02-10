@@ -1,19 +1,29 @@
 import React from 'react';
-import styles from '../styles/components/Header.module.css'
+import styles from '../styles/components/Header.module.css';
+import Link from 'next/link';
+
+import HeaderLogin from './HeaderLogin';
 
 export default function Header() {
   return (
-    <div className={styles.header}>
-      <p>&quot;) bubs_shop</p>
+    <div className={styles.main}>
+      <HeaderLogin />
+      <div className={styles.container}>
+        <p>&quot;) bubs_shop</p>
 
-      <nav>
-        <ul>
-          <li><a href="/">FEED</a></li>
-          <li><a href="/estoque"></a>EM ESTOQUE</li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/"><a>FEED</a></Link>
+            </li>
+            <li>
+              <Link href="/estoque"><a>EM ESTOQUE</a></Link>
+            </li>
+          </ul>
+        </nav>
 
-      <a>login</a>
+        <div />
+      </div>
     </div>
   )
 }

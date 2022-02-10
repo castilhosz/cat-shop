@@ -1,4 +1,12 @@
-.header {
+.main {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  width: 100%;
+}
+
+.container {
   display: flex;
   flex-direction: row;
 
@@ -7,25 +15,25 @@
 
   height: 5vh;
   width: 100%;
-
   padding: 2rem;
-  background-color: #000;
 
-  position: fixed;
+  background-color: #000;
+  border-bottom: 1px solid #cdc7cb;
 }
 
-.header a {
+.container a {
   color: #eff0f1;
   background: #000;
   padding: 0.7rem;
 }
 
-.header ul {
+.container ul {
   display: flex;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-.header ul li {
+.container ul li {
   cursor: pointer;
+  letter-spacing: 1px;
 }
