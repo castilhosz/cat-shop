@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  top: 0;
+  transition: top 0.2s ease-in-out;
+
+  height: 5vh;
+  width: 100%;
+  padding: 2rem;
+
+  background-color: #000;
+  border-bottom: 1px solid #cdc7cb;
+}
+
+.container a {
+  color: #eff0f1;
+  background: #000;
+  padding: 0.7rem;
+}
+
+.container ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.container ul li {
+  cursor: pointer;
+  letter-spacing: 1px;
+}

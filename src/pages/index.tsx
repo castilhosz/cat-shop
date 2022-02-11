@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/pages/Home.module.css'
 
+import Header from '../components/Header';
+
 export default function Home() {
   return (
     <div className={styles['page-home']}>
@@ -9,16 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <div className={styles.header}>
-        <p>&quot;) bubs_shop</p>
-
-        <div>
-          <button>FEED</button>
-          <button id="active">EM ESTOQUE</button>
-        </div>
-
-        <p>login</p>
-      </div>
+      <Header />
 
       <div className={styles.feed}>
         <div>
