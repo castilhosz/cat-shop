@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/pages/Estoque.module.css'
 
 import Header from '../components/Header';
-import ProductStock from '../components/ProductStock';
+import ProductList from '../components/ProductList';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
 
       <Header />
       <div className={styles.feed}>
-        <ProductStock />
+        <ProductList />
       </div>
 
     </div>

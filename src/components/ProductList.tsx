@@ -11,7 +11,7 @@ function Product(props) {
   )
 }
 
-export default function ProductStock() {
+export default function ProductList() {
   return (
     <div >
       <div>
