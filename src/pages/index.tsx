@@ -1,8 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/link';
-
 import styles from '../styles/pages/Home.module.css'
-
 import Header from '../components/Header';
 
 export default function Home() {

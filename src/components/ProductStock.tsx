@@ -1,18 +1,26 @@
 import React from 'react';
-import styles from '../styles/components/ProductStock.module.css';
-import Link from 'next/link';
+import products from '../../products.json';
 
-class ProductStock extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: '',
-      subtitle: '',
-      img: ''
-    };
-
-
-  }
+function Product(props) {
+  return (
+    <div>
+      <img src={props.img} alt="" />
+      <p>{props.subtitle}</p>
+      <h1>{props.title}</h1>
+    </div>
+  )
 }
 
-export ProductStock;
+export default function ProductStock() {
+  return (
+    <div >
+      <div>
+        {products.map((e) => {
+          return (
+            <Product img={e.img} subtitle={e.subtitle} title={e.title} />
+          );
+        })}
+      </div>
+    </div>
+  )
+};
