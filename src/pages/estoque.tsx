@@ -13,9 +13,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className={styles.feed}>
-        <ProductList />
-      </div>
+      <ProductList />
 
     </div>
   )
