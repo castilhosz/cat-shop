@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft2.genius.com%2Funsafe%2F600x600%2Fhttps%3A%252F%252Fimages.genius.com%252F74739ffa7ed3e88790ae1881e3bb6133.640x640x1.jpg&f=1&nofb=1",
+    "img": "/colapso.jpg",
     "title": "Colapso",
     "subtitle": "Leozin"
   },
   {
     "id": 2,
-    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.genius.com%2Fad941e1ff042a96ec8042da9b8192f23.1000x1000x1.jpg&f=1&nofb=1",
+    "img": "/midnightcalls.jpg",
     "title": "Midnight Calls",
     "subtitle": "Yunk Vino"
   },
   {
     "id": 3,
-    "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sanity.com.au%2Fmedia%2FImages%2Ffullimage%2F360394%2FSDC_2325652_2017-16-1--08-15-00.jpg&f=1&nofb=1",
+    "img": "/singmcknight.jpg",
     "title": "Birds in the Trap Sing McKnight",
     "subtitle": "Travis Scott"
   },
   {
     "id": 4,
-    "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpopnow.com.br%2Fwp-content%2Fuploads%2F2018%2F08%2Ftravisscott_37563341_745767692434613_8752327210972479488_n-e1534970172740.jpg&f=1&nofb=1",
+    "img": "/astroworld.jpg",
     "title": "Astroworld",
     "subtitle": "Travis Scott"
   },
   {
     "id": 5,
-    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.portalpopcyber.com%2Fwp-content%2Fuploads%2F2020%2F04%2Funnamed-1-1-scaled.jpg&f=1&nofb=1",
+    "img": "/jordanboyz.jpg",
     "title": "Jordan Boyz Vol.2",
     "subtitle": "Dudu & Leozin"
   }
