@@ -12,7 +12,9 @@ export default function Header() {
     <div className={styles.main}>
       <HeaderLogin />
       <div className={styles.container}>
-        <p>&quot;) bubs_shop</p>
+        <div className={styles.brand}>
+          <p>&quot;) bubs_shop</p>
+        </div>
 
         <nav>
           <ul>

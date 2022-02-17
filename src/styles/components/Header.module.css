@@ -8,10 +8,8 @@
   display: flex;
   flex-direction: row;
 
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-
-  z-index: 4;
 
   height: 5vh;
   width: 100%;
@@ -19,6 +17,12 @@
 
   background-color: #000;
   border-bottom: 1px solid #cdc7cb;
+}
+
+.brand {
+  flex: 1;
+  position: absolute;
+  left: 2rem;
 }
 
 .container a {
