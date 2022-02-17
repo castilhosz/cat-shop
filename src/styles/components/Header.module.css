@@ -1,8 +1,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  position: fixed;
-
   width: 100%;
 }
 
@@ -13,8 +11,7 @@
   justify-content: space-between;
   align-items: center;
 
-  top: 0;
-  transition: top 0.2s ease-in-out;
+  z-index: 4;
 
   height: 5vh;
   width: 100%;
