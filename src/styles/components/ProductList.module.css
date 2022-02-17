@@ -1,7 +1,10 @@
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 3rem
+  margin: 3rem;
+  padding-top: 5rem;
+  
+  z-index: -1;
 }
 
 .container div {
@@ -10,12 +13,6 @@
   padding: 1rem;
 
   align-items: center;
-}
-
-.container div image {
-  background-color: #090807;
-  width: 30vw;
-  height: 60vh;
 }
 
 .container div p {
