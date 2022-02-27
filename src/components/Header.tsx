@@ -1,16 +1,19 @@
 import React from 'react';
-import styles from '../styles/components/Header.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import HeaderLogin from './HeaderLogin';
+import styles from '../styles/components/Header.module.css';
 
 export default function Header() {
   const router = useRouter();
 
   return (
     <div className={styles.main}>
-      <HeaderLogin />
+      <div className={styles.loginBar}>
+        <Link href='/meus-pedidos'><a>Acompanhar Pedidos</a></Link>
+        <Link href='/auth'><a>Login/Registrar</a></Link>
+        <Link href='/atendimento'><a>Ajuda</a></Link>
+      </div>
       <div className={styles.container}>
         <div className={styles.brand}>
           <p>&quot;) bubs_shop</p>

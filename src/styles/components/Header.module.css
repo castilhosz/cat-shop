@@ -19,12 +19,6 @@
   border-bottom: 1px solid #cdc7cb;
 }
 
-.brand {
-  flex: 1;
-  position: absolute;
-  left: 2rem;
-}
-
 .container a {
   color: #eff0f1;
   background: #000;
@@ -41,4 +35,31 @@
 .container ul li {
   cursor: pointer;
   letter-spacing: 1px;
+}
+
+.loginBar {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 2vh;
+  width: 100%;
+  padding: 1rem;
+
+  background-color: #181818;
+  border-bottom: 1px solid #cdc7cb;
+}
+
+.loginBar a {
+  color: #cdc7cb;
+  padding-right: 2rem;
+  font-size: 0.75rem;
+}
+
+.brand {
+  flex: 1;
+  position: absolute;
+  left: 2rem;
 }
