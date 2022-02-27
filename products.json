@@ -1,32 +1,32 @@
 [
   {
-    "id": 1,
-    "img": "/colapso.jpg",
-    "title": "Colapso",
-    "subtitle": "Leozin"
+    "product_id": 1,
+    "cover": "./src/assets/colapso.jpg",
+    "name": "Colapso",
+    "description": "Leozin"
   },
   {
-    "id": 2,
-    "img": "/midnightcalls.jpg",
-    "title": "Midnight Calls",
-    "subtitle": "Yunk Vino"
+    "product_id": 2,
+    "cover": "./src/assets/midnightcalls.jpg",
+    "name": "Midnight Calls",
+    "description": "Yunk Vino"
   },
   {
-    "id": 3,
-    "img": "/singmcknight.jpg",
-    "title": "Birds in the Trap Sing McKnight",
-    "subtitle": "Travis Scott"
+    "product_id": 3,
+    "cover": "./src/assets/singmcknight.jpg",
+    "name": "Birds in the Trap Sing McKnight",
+    "description": "Travis Scott"
   },
   {
-    "id": 4,
-    "img": "/astroworld.jpg",
-    "title": "Astroworld",
-    "subtitle": "Travis Scott"
+    "product_id": 4,
+    "cover": "./src/assets/astroworld.jpg",
+    "name": "Astroworld",
+    "description": "Travis Scott"
   },
   {
-    "id": 5,
-    "img": "/jordanboyz.jpg",
-    "title": "Jordan Boyz Vol.2",
-    "subtitle": "Dudu & Leozin"
+    "product_id": 5,
+    "cover": "./src/assets/jordanboyz.jpg",
+    "name": "Jordan Boyz Vol.2",
+    "description": "Dudu & Leozin"
   }
 ]
