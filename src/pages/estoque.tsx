@@ -1,5 +1,4 @@
 import React from "react"
-import Head from "next/head"
 import Image from "next/image"
 
 import products from "../../products.json"
@@ -8,13 +7,7 @@ import Header from "../components/Header"
 
 const Stock: React.FC = () => (
   <div className={styles["page-stock"]}>
-    <Head>
-      <title>bubs_shop</title>
-      <link rel="icon" href="/favicon.png" />
-    </Head>
-
     <Header />
-
     <div className={styles.container}>
       {products.map(e => (
         <div key={e.product_id}>
