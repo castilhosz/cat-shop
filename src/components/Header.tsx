@@ -1,18 +1,24 @@
-import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import React from "react"
+import Link from "next/link"
+import { useRouter } from "next/router"
 
-import styles from '../styles/components/Header.module.css';
+import styles from "../styles/components/Header.module.css"
 
-export default function Header() {
-  const router = useRouter();
+const Header: React.FC = () => {
+  const router = useRouter()
 
   return (
     <div className={styles.main}>
       <div className={styles.loginBar}>
-        <Link href='/meus-pedidos'><a>Acompanhar Pedidos</a></Link>
-        <Link href='/auth'><a>Login/Registrar</a></Link>
-        <Link href='/atendimento'><a>Ajuda</a></Link>
+        <Link href="/meus-pedidos" passHref>
+          <a href="replace">Acompanhar Pedidos</a>
+        </Link>
+        <Link href="/auth" passHref>
+          <a href="replace">Login/Registrar</a>
+        </Link>
+        <Link href="/atendimento" passHref>
+          <a href="replace">Ajuda</a>
+        </Link>
       </div>
       <div className={styles.container}>
         <div className={styles.brand}>
@@ -22,10 +28,21 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <Link href="/"><a id={router.pathname == '/' ? "active" : ""}>FEED</a></Link>
+              <Link href="/" passHref>
+                <a href="replace" id={router.pathname === "/" ? "active" : ""}>
+                  FEED
+                </a>
+              </Link>
             </li>
             <li>
-              <Link href="/estoque"><a id={router.pathname == '/estoque' ? "active" : ""}>EM ESTOQUE</a></Link>
+              <Link href="/estoque" passHref>
+                <a
+                  href="replace"
+                  id={router.pathname === "/estoque" ? "active" : ""}
+                >
+                  EM ESTOQUE
+                </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -35,3 +52,5 @@ export default function Header() {
     </div>
   )
 }
+
+export default Header
