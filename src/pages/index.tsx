@@ -22,7 +22,7 @@ export default function Home() {
         <Image
           height={1000}
           width={1800}
-          src="/237-deluxe.jpg"
+          src="/assets/237-deluxe.jpg"
           objectFit="cover" />
       </div>
     </div>

@@ -1,31 +1,31 @@
 [
   {
     "product_id": 1,
-    "cover": "./src/assets/colapso.jpg",
+    "cover": "/assets/colapso.jpg",
     "name": "Colapso",
     "description": "Leozin"
   },
   {
     "product_id": 2,
-    "cover": "./src/assets/midnightcalls.jpg",
+    "cover": "/assets/midnightcalls.jpg",
     "name": "Midnight Calls",
     "description": "Yunk Vino"
   },
   {
     "product_id": 3,
-    "cover": "./src/assets/singmcknight.jpg",
+    "cover": "/assets/singmcknight.jpg",
     "name": "Birds in the Trap Sing McKnight",
     "description": "Travis Scott"
   },
   {
     "product_id": 4,
-    "cover": "./src/assets/astroworld.jpg",
+    "cover": "/assets/astroworld.jpg",
     "name": "Astroworld",
     "description": "Travis Scott"
   },
   {
     "product_id": 5,
-    "cover": "./src/assets/jordanboyz.jpg",
+    "cover": "/assets/jordanboyz.jpg",
     "name": "Jordan Boyz Vol.2",
     "description": "Dudu & Leozin"
   }
