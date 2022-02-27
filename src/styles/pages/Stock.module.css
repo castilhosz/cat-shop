@@ -1,4 +1,4 @@
-.page-estoque {
+.page-stock {
   display: flex;
 
   flex-direction: column;
@@ -21,12 +21,12 @@
 .container div p {
   padding-top: 1rem;
   color: #ccc;
-  
+
   text-align: center;
 }
 
 .container div h1 {
   color: #eff0f1;
-  
+
   text-align: center;
 }

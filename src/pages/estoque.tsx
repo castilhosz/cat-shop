@@ -2,12 +2,12 @@ import React from "react"
 import Head from "next/head"
 import Image from "next/image"
 
-import styles from "../styles/pages/Estoque.module.css"
 import products from "../../products.json"
+import styles from "../styles/pages/Stock.module.css"
 import Header from "../components/Header"
 
 const Stock: React.FC = () => (
-  <div className={styles["page-estoque"]}>
+  <div className={styles["page-stock"]}>
     <Head>
       <title>bubs_shop</title>
       <link rel="icon" href="/favicon.png" />
