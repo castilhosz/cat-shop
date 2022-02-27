@@ -6,10 +6,10 @@ import "../styles/globals.css"
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => (
   <>
-  <Head>
-    <title>bubs_shop</title>
-  </Head>
-  <Component {...pageProps} />
+    <Head>
+      <title>bubs_shop</title>
+    </Head>
+    <Component {...pageProps} />
   </>
 )
 
