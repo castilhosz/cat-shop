@@ -2,15 +2,18 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-import styles from "../styles/pages/Auth.module.css"
+import styles from "../styles/components/Auth.module.css"
 
 const Auth: React.FC = () => (
   <div className={styles["page-auth"]}>
     <div className={styles.container}>
-      <Image height={300} width={300} src="/favicon.png" />
+      <button className={styles.close} type="submit">
+        <Image height={30} width={30} src={"/assets/close.svg"}/>
+      </button>
+      <Image height={100} width={100} src="/assets/logo.png" />
       <h1>ENTRE NA SUA CONTA</h1>
       <form>
-        <input type="email" placeholder="Endereço de e-mail" />
+        <input type="email" placeholder="Endereço de e-mail"/>
       </form>
       <form>
         <input placeholder="Senha" />
@@ -24,7 +27,7 @@ const Auth: React.FC = () => (
           <a href="replace">Esqueceu sua senha?</a>
         </Link>
       </div>
-      <button type="submit">
+      <button className={styles.button} type="submit">
         <p>ENTRAR</p>
       </button>
     </div>

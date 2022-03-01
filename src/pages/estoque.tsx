@@ -4,9 +4,11 @@ import Image from "next/image"
 import products from "../../products.json"
 import styles from "../styles/pages/Stock.module.css"
 import Header from "../components/Header"
+import Auth from '../components/Auth'
 
 const Stock: React.FC = () => (
   <div className={styles["page-stock"]}>
+    <Auth/>
     <Header />
     <div className={styles.container}>
       {products.map(e => (
