@@ -12,11 +12,21 @@ const Auth: React.FC = () => (
       </button>
       <Image height={100} width={100} src="/assets/logo.png" />
       <h1>ENTRE NA SUA CONTA</h1>
-      <form>
-        <input type="email" placeholder="Endereço de e-mail" />
-      </form>
-      <form>
-        <input placeholder="Senha" />
+      <form className={styles.registerForm}>
+        <input
+        id="email-adress"
+        name="email"
+        type="email"
+        autoComplete="email"
+        required
+        placeholder="Endereço de e-mail" />
+        <input
+        id="password"
+        name="password"
+        type="password"
+        autoComplete="current-password"
+        required
+        placeholder="Senha" />
       </form>
       <div>
         <form>
