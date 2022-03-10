@@ -14,19 +14,21 @@ const Auth: React.FC = () => (
       <h1>ENTRE NA SUA CONTA</h1>
       <form className={styles.registerForm}>
         <input
-        id="email-adress"
-        name="email"
-        type="email"
-        autoComplete="email"
-        required
-        placeholder="Endereço de e-mail" />
+          id="email-adress"
+          name="email"
+          type="email"
+          autoComplete="email"
+          required
+          placeholder="Endereço de e-mail"
+        />
         <input
-        id="password"
-        name="password"
-        type="password"
-        autoComplete="current-password"
-        required
-        placeholder="Senha" />
+          id="password"
+          name="password"
+          type="password"
+          autoComplete="current-password"
+          required
+          placeholder="Senha"
+        />
       </form>
       <div>
         <form>
